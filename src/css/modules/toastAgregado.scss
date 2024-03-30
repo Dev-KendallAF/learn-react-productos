@@ -1,0 +1,27 @@
+.toastAgregado
+{
+    background-color: #009e54;
+    border-radius: 10px;
+    width:18em;
+    color: #fff;
+    &__header{
+        padding: 1em;
+        display: flex;
+        border-bottom: solid 1px ;
+    }
+    &__body{
+        padding: 1em;
+    }
+    animation: fadeInAnimation ease 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
